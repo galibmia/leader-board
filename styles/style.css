@@ -20,12 +20,50 @@ hr{
 
 .container{
     background-color: #FFFF;
-    width: 850px;
+    max-width: 845px;
     padding: 30px;
     border-radius: 5px;
-    margin-bottom: 25px;
+    margin-top: 25px;
     
 }
+/* Header Styles */
+.header{
+    background-color: #562EFF;
+    display: flex;
+    justify-content: center;
+}
+.header-content{
+    width: 845px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-left{
+    display: flex;
+    align-items: center;
+    column-gap: 15px;
+}
+.icon img{
+    width: 40px;
+    height: 50px;
+}
+.header-left p{
+    color: #FFFF;
+    font-size: 24px;
+}
+.header-right{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.header-right a{
+    color: #FFFF;
+    text-decoration: none;
+    font-size: 16px;
+}
+/* Top player styles */
+
 .top-players{
     margin-bottom: 30px;
 }
@@ -120,4 +158,22 @@ hr{
     color: #FF4A60;
     margin-left: 5px;
     margin-top: -1px;
+}
+
+
+/* Footer design */
+
+.footer{
+    background-color: #562EFF;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    color: #FFFF;
+    font-size: 20px;
+    padding: 10px 0;
+}
+
+.boss:hover{
+    color: #FF4A60;
+    cursor: pointer;
 }
