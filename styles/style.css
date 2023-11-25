@@ -1,0 +1,50 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Poppins:wght@500&family=Satisfy&family=Work+Sans:wght@500&display=swap');
+
+
+body{
+    background-color: #c8bff7;
+    font-family: 'Poppins', sans-serif;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+hr{
+    border: 1px solid #d1d1d1;
+}
+
+.container{
+    background-color: #FFFF;
+    width: 850px;
+    padding: 30px;
+    
+}
+.top-players{
+    margin-bottom: 30px;
+}
+.section-title{
+    color: #5F2DFF;
+    font-size: 24px;
+    margin-top: 3px;
+}
+
+.players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.player{
+    display: flex;
+    align-items: center;
+}
+.player img{
+    width: 56px;
+    height: 56px;
+}
+.player-name{
+    font-size: 18px;
+    margin-left: 16px;
+}
