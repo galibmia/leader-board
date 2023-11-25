@@ -1,6 +1,9 @@
 /* Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Poppins:wght@500&family=Satisfy&family=Work+Sans:wght@500&display=swap');
 
+*{
+    margin: 0;
+}
 
 body{
     background-color: #c8bff7;
@@ -16,9 +19,11 @@ hr{
 }
 
 .container{
+    margin-top: 35px;
     background-color: #FFFF;
     width: 850px;
     padding: 30px;
+    border-radius: 5px;
     
 }
 .top-players{
@@ -28,6 +33,7 @@ hr{
     color: #5F2DFF;
     font-size: 24px;
     margin-top: 3px;
+    margin-bottom: 40px;
 }
 
 .players{
@@ -47,4 +53,37 @@ hr{
 .player-name{
     font-size: 18px;
     margin-left: 16px;
+}
+
+/* Top blog styles */
+.top-blogs .section-title{
+    margin-top: 30px;
+}
+.blogs{
+    display: grid;
+    grid-template-columns: repeat(2, 1.5fr);
+    column-gap: 30px;
+    row-gap: 20px;
+} 
+.blog{
+   display: flex;
+   align-items: flex-start ;
+}
+.blog .thumbnail img{
+    width: 225px;
+    height: 120px;
+}
+.blog-info{
+    margin-left: 20px;
+}
+.blog-title{
+    font-size: 20px;
+}
+.blog-author{
+    font-size: 16px;
+    color: #9F9F9F;
+}
+.blog-author a{
+    text-decoration: none;
+    color:  #562EFF;
 }
