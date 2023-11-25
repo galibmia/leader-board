@@ -19,11 +19,11 @@ hr{
 }
 
 .container{
-    margin-top: 35px;
     background-color: #FFFF;
     width: 850px;
     padding: 30px;
     border-radius: 5px;
+    margin-bottom: 25px;
     
 }
 .top-players{
@@ -86,4 +86,38 @@ hr{
 .blog-author a{
     text-decoration: none;
     color:  #562EFF;
+}
+
+
+/* Course styles */
+.courses{
+    display: flex;
+    gap: 25px;
+}
+.course{
+    box-shadow: 0.5px 0.5px 20px lightgray;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.course .thumbnail img{
+    width: 245px;
+    height: 130px;
+}
+.rating{
+    display: flex;
+    gap: 10px;
+}
+.duration{
+    display: flex;
+    align-items: flex-start;
+    background-color: #FFE4E8;
+    border-radius: 15px;
+    padding: 3px 5px 0px 5px;
+    margin-left: 20px;
+}
+.time p{
+    color: #FF4A60;
+    margin-left: 5px;
+    margin-top: -1px;
 }
