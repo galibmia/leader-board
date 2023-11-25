@@ -183,14 +183,69 @@ hr{
 
 /* mobile Devices */
 
-@media only screen and (max-width: 688px) {
+@media only screen and (max-width: 449px) {
     .container{
         width: 90%;
         margin-top: 10px;
         padding: 10px 0;
     }
     .header{
-        padding: 5px 15px;
+        padding: 5px;
+    }
+    .header-right{
+        gap: 5px;
+    }
+    .header-right a{
+        font-size: 12px;
+    }
+    .header-right img{
+        display: none;
+    }
+    .players, .blogs, .courses{
+        grid-template-columns: repeat(1, 1fr);
+        padding-left: 20px;
+    }
+    hr{
+        width: 90%;
+        margin-left: 5%;
+    }
+    .blog, .player{
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+    .blog-info{
+        margin-left: 0;
+    }
+    .blog-title{
+        font-size: 16px;
+    }
+    .section-title{
+        margin-bottom: 20px;
+        text-align: center;
+    }
+   .blog .thumbnail img{
+        width: 200px;
+        height: 100px;
+    }
+    .courses{
+        justify-items: center;
+    }
+    .course{
+        box-shadow: none;
+        padding-bottom: 20px;
+        padding-left: 0;
+    }
+}
+
+@media only screen and (min-width: 450px) and (max-width: 688px) {
+    .container{
+        width: 80%;
+        margin-top: 10px;
+        padding: 10px 0;
+    }
+    .header{
+        padding: 5px 20px;
     }
     .header-right{
         gap: 5px;
@@ -283,8 +338,8 @@ hr{
         text-align: center;
     }
    .blog .thumbnail img{
-        width: 230px;
-        height: 130px;
+        width: 200px;
+        height: 100px;
     }
     .courses{
         justify-content: center;
